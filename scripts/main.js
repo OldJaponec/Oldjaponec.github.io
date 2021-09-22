@@ -14,7 +14,7 @@ var knop = document.querySelector('button');
 var Head = document.querySelector('h1');
 
 function setUserName() {
-  var Name = prompt('Please enter your name.');
+  var Name = prompt('ВВЕДИ ИМЯ:');
   localStorage.setItem('name', Name);
   Head.textContent = 'Иди нахуй, ' + Name + '!';
 }
